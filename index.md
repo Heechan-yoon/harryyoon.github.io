@@ -95,7 +95,8 @@ p {
 Hi, I am Hee Chan Yoon.
 <br/>
 <br/>
-Research interest: light interaction with materials, 3D reconstruction.
+Computer graphics.
+Research interest: Physics-based light interaction with materials, 3D reconstruction.
 
 
 <!-- <hr/>
