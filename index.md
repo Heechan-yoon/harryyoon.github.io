@@ -120,6 +120,8 @@ Research interest: light interaction with materials, 3D reconstruction.
       <strong>Heechan Yoon</strong>, Seungkyu Lee<br/>
       <span style="color: green">IEEE BigComp 2024 </span> <strong></strong><br/>
       <a class="links" href="https://arxiv.org/abs/2312.08118"> Paper </a>
+      <br>
+      Neural Radiance Fields (NeRF) uses only straight rays. This leads to a challenge in representing scenes containing transparent object where refractions occur. To handle this problem, I proposed a method correct ray that refracts as it passes through a transparent object using Snell’s law.
     </td> 
   </tr>
 </table>
@@ -132,6 +134,9 @@ Research interest: light interaction with materials, 3D reconstruction.
       <strong>Single Image Reflection Removal with Reflection Intensity Prior Knowledge</strong> </a> <br/> 
       Dongshen Han, Seungkyu Lee, Chaoning Zhang, <strong>Heechan Yoon</strong>, Hyukmin Kwon, HyunCheol Kim, HyonGon Choo<br/>
       <a class="links" href="https://arxiv.org/abs/2312.03798"> Paper </a>
+      <br>
+      Single image reflection removal.
+
     </td> 
   </tr>
 </table>
@@ -142,7 +147,8 @@ Research interest: light interaction with materials, 3D reconstruction.
     <td width="70%">
       <strong>Internal-External Boundary Attention Fusion for Glass Surface Segmentation</strong> <br/> 
       Dongshen Han, Seungkyu Lee, <strong>Heechan Yoon</strong>, Hyukmin Kwon, Hyun-Cheol Kim, Hyon-Gon Choo<br/>
-      <!-- <a class="links" href="https://arxiv.org/pdf/2007.13078.pdf"> Paper </a> -->
+      <br>
+      Detecting glass regions from a single-color image
     </td> 
   </tr>
 </table>
@@ -152,7 +158,11 @@ Research interest: light interaction with materials, 3D reconstruction.
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/capstone.gif" align="left" width="250" style="cursor:pointer" onclick="window.open(this.src)"/>    </td>
     <td width="70%">
     <strong>Virtual Puppet Control using 2D video Hand Tracking and Facial Emotion Recognition</strong> <br/> 
-     Jueun Mun*, Gangyeon Go*, <strong>Heechan Yoon*</strong>, Yewon Han*, Seungkyu Lee.<br/>
+     Jueun Mun*, Gangyeon Go*, <strong>Heechan Yoon*</strong>, Yewon Han*, Seungkyu Lee.<br>
+     <br>
+     The movement of the hand is tracked using the RGB camera so that the puppet can move according to the movement of the finger. In addition, it recognizes specific hand gestures so that a predetermined action can be taken. <br>
+     Left hand: thumb and midlle finger - puppet's arms, index finger - upper body <br>
+     Right hand: peace gesture - run <br>
     </td> 
   </tr>
 </table>
@@ -163,3 +173,50 @@ Research interest: light interaction with materials, 3D reconstruction.
 <div align="left"><b>Projects</b></div> <br/>
 </font>
 
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/projects/3D_Recon.png" align="left" width="500" style="cursor:pointer" onclick="window.open(this.src)"/>    </td>
+    <td width="70%">
+    <strong>3D reconstruction</strong><br>
+  Project called 'Improving Texture Quality Using Material Properties' organized by ETRI(Electronics and Telecommunications Research Institute), South Korea. <br>
+  <br>
+  3D reconstruction with texture mapping.<br>
+    </td> 
+  </tr>
+</table>
+
+<table style="background-color:#F1F7FC">
+<tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="50%">    <img src="/images/projects/roughness.jpg" align="left" width="500" style="cursor:pointer" onclick="window.open(this.src)"/>    </td>
+    <td width="70%">
+    <strong>Roughness map </strong><br>
+  I assigned roughness value to individual faces and made roughness map. Our model(The bottom of the image) more realistically portrays light interactions corresponding to the material as the light source moves (left --> right). 
+ <br>
+    </td> 
+  </tr>
+</table>
+
+<table style="background-color:#F1F7FC">
+<tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="50%">    <img src="/images/projects/weight.png" align="left" width="500" style="cursor:pointer" onclick="window.open(this.src)"/>    </td>
+    <td width="70%">
+    <strong> Weight calculation of angle and distance difference </strong><br>
+  By computing the angle between the camera direction and the mapping face normal vector, as well as the distance to the mapped face, I assigned more weight to images captured from the front and closer distances of the face.
+<br>
+    </td> 
+  </tr>
+</table>
+
+<table style="background-color:#F1F7FC">
+<tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="50%">    <img src="/images/projects/atlas.png" align="left" width="500" style="cursor:pointer" onclick="window.open(this.src)"/>    </td>
+    <td width="70%">
+    <strong>Reduced the data size of texture atlas </strong><br>
+  The binary image represents the face groups in white and the absent areas in black. To minimize the wasted black space between face groups, I found empty rectangles among n-vertex general polygons and insert textures into these spaces.
+<br>
+    </td> 
+  </tr>
+</table>
+
+
+<br>
