@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Heechan Yoon"
 description              : "An amazing website."
-url                      : #"https://harryyoon.github.io"
+url                      : "https://harryyoon777.github.io/"
 baseurl                  : #https://harryyoon.github.io
 repository               : #"https://github.com/Heechan-yoon/harryyoon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
