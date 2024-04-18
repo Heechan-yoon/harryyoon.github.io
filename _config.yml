@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Harryyoon777"
+title                    : "Heechan Yoon"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hee Chan Yoon"
+name                     : "Heechan Yoon"
 description              : "An amazing website."
-url                      : "https://harryyoon777.github.io"
+url                      : #"https://harryyoon.github.io"
 baseurl                  : #https://harryyoon.github.io
-repository               : https://harryyoon777.github.io/
+repository               : #"https://github.com/Heechan-yoon/harryyoon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Heechan Yoon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "윤희찬"
+  location         : "Incheon, South Korea"
+  email            : "heechany@umd.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "harryyoon777@gmail.com"
+      # url: "heechany@umd.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,12 +122,12 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Google"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=DdE-4oIAAAAJ&hl=ko"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/heechan-yoon-2657a4304/"
 
 # Site Footer
 footer:
