@@ -92,11 +92,16 @@ p {
 
 </style>
 
-Hi, I am Hee Chan Yoon.
+Hi! I am Heechan Yoon.
+<br/>
+I am a M.S. Computer Science student at University of Maryland, College Park (Fall 24). Prior to that, I earned my B.S. degrees from Kyung Hee University, where I worked with <a href="http://cvlab.khu.ac.kr/">Prof.Seungkyu Lee</a>.
 <br/>
 <br/>
-Computer graphics <br>
-Research interest: Physics-based light interaction with materials, 3D reconstruction.
+<b>Research interest</b>
+<br/>
+Nerual Rendering, Physically-Based Rendering, 3D Reconstruction
+<br/>
+Computer Graphics, Computer Vision.
 
 
 <!-- <hr/>
